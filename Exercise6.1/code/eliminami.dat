@@ -1,0 +1,122 @@
+Classic 1D Ising model             
+Monte Carlo simulation             
+
+Nearest neighbour interaction      
+
+Boltzmann weight exp(- beta * H ), beta = 1/T 
+
+The program uses k_B=1 and mu_B=1 units 
+Temperature = 3
+Number of spins = 50
+Exchange interaction = 1
+External field = 0.02
+The program perform Metropolis moves
+Number of blocks = 20
+Number of steps in one block = 1000
+
+Initial energy = 0.2008
+
+This is the 1 run
+
+Block number 1
+Acceptance rate 0.67214
+
+----------------------------
+
+Block number 2
+Acceptance rate 0.67672
+
+----------------------------
+
+Block number 3
+Acceptance rate 0.6779
+
+----------------------------
+
+Block number 4
+Acceptance rate 0.672
+
+----------------------------
+
+Block number 5
+Acceptance rate 0.67466
+
+----------------------------
+
+Block number 6
+Acceptance rate 0.6771
+
+----------------------------
+
+Block number 7
+Acceptance rate 0.67746
+
+----------------------------
+
+Block number 8
+Acceptance rate 0.67592
+
+----------------------------
+
+Block number 9
+Acceptance rate 0.67646
+
+----------------------------
+
+Block number 10
+Acceptance rate 0.6793
+
+----------------------------
+
+Block number 11
+Acceptance rate 0.67632
+
+----------------------------
+
+Block number 12
+Acceptance rate 0.67726
+
+----------------------------
+
+Block number 13
+Acceptance rate 0.67494
+
+----------------------------
+
+Block number 14
+Acceptance rate 0.67374
+
+----------------------------
+
+Block number 15
+Acceptance rate 0.67032
+
+----------------------------
+
+Block number 16
+Acceptance rate 0.67354
+
+----------------------------
+
+Block number 17
+Acceptance rate 0.68394
+
+----------------------------
+
+Block number 18
+Acceptance rate 0.66926
+
+----------------------------
+
+Block number 19
+Acceptance rate 0.67474
+
+----------------------------
+
+Block number 20
+Acceptance rate 0.67136
+
+----------------------------
+
+Print final configuration to file config.final 
+

@@ -1,0 +1,29 @@
+Classic Lennard-Jones fluid
+Molecular dynamics simulation in NVE ensemble  
+
+Interatomic potential v(r) = 4 * [(1/r)^12 - (1/r)^6]
+
+The program uses Lennard-Jones units 
+Number of particles = 108
+Density of particles = 1.1
+Volume of the simulation box = 98.1818
+Edge of the simulation box = 4.61329
+Bin size g(r) = 0.0768881
+The program integrates Newton equations with the Verlet method 
+Time step = 0.005
+Number of steps = 1000
+
+Restart form final configuration from file config.final 
+
+Number of time-steps: 100
+Number of time-steps: 200
+Number of time-steps: 300
+Number of time-steps: 400
+Number of time-steps: 500
+Number of time-steps: 600
+Number of time-steps: 700
+Number of time-steps: 800
+Number of time-steps: 900
+Number of time-steps: 1000
+Print final configuration to file config.final and scond to last configuration to file config.old_final 
+

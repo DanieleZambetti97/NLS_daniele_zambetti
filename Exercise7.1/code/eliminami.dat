@@ -1,0 +1,80 @@
+Classic Lennard-Jones fluid        
+Monte Carlo simulation             
+
+Interatomic potential v(r) = 4 * [(1/r)^12 - (1/r)^6]
+
+Boltzmann weight exp(- beta * sum_{i<j} v(r_ij) ), beta = 1/T 
+
+The program uses Lennard-Jones units 
+Temperature = 1.2
+Number of particles = 108
+Density of particles = 0.05
+Volume of the simulation box = 2160
+Edge of the simulation box = 12.9266
+Cutoff of the interatomic potential = 5
+
+Tail correction for the potential energy = -0.00335096
+Tail correction for the virial           = -0.00670178
+The program perform Metropolis moves with uniform translations
+Moves parameter = 5
+Number of blocks = 10
+Number of steps in one block = 1000
+
+Read initial configuration from file config.0 
+
+Initial potential energy (with tail corrections) = -0.0351882
+Virial                   (with tail corrections) = -0.0703006
+Pressure                 (with tail corrections) = 0.056485
+
+Block number 1
+Acceptance rate 0.628759
+
+----------------------------
+
+Block number 2
+Acceptance rate 0.63112
+
+----------------------------
+
+Block number 3
+Acceptance rate 0.629139
+
+----------------------------
+
+Block number 4
+Acceptance rate 0.630407
+
+----------------------------
+
+Block number 5
+Acceptance rate 0.631296
+
+----------------------------
+
+Block number 6
+Acceptance rate 0.629537
+
+----------------------------
+
+Block number 7
+Acceptance rate 0.630398
+
+----------------------------
+
+Block number 8
+Acceptance rate 0.63437
+
+----------------------------
+
+Block number 9
+Acceptance rate 0.627167
+
+----------------------------
+
+Block number 10
+Acceptance rate 0.631361
+
+----------------------------
+
+Print final configuration to file config.final 
+
