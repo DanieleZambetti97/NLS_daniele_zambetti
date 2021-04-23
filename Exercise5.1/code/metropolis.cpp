@@ -35,8 +35,8 @@ bool Metropolis ::  MakePass(){
 	double New_Pos[3];
 	double A=0;
 	for(int i=0;i<3;i++){
-		New_Pos[i]=rnd.Rannyu(Pos[i]-delta/2.,Pos[i]+delta/2.);
-//		New_Pos[i]=rnd.Gauss(Pos[i],delta);
+//		New_Pos[i]=rnd.Rannyu(Pos[i]-delta/2.,Pos[i]+delta/2.);
+		New_Pos[i]=rnd.Gauss(Pos[i],delta);
 	}
 	if(f==0) {A=min(1., PD_1s(New_Pos[0],New_Pos[1],New_Pos[2])/PD_1s(Pos[0],Pos[1],Pos[2]) );}
 	if(f==1) {A=min(1., PD_2p(New_Pos[0],New_Pos[1],New_Pos[2])/PD_2p(Pos[0],Pos[1],Pos[2]) );}
